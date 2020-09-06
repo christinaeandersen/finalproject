@@ -1,0 +1,468 @@
+body {
+  margin: 0;
+}
+p {
+  font-family: Futura;
+}
+h3 {
+  font-family: Futura;
+}
+h2 {
+  font-family: Futura;
+}
+h1 {
+  font-family: Futura;
+}
+
+.header-section {
+  height: 91vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 9vh;
+  background-image: url("./assets/wair-hero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header-buttons-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30vw;
+}
+.navBar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+}
+.logo {
+  width: 5vw;
+  height: auto;
+}
+.navbar-section-container {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-section-container > a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.navbar-section-container > a:hover {
+  text-decoration: underline;
+  color: #7a8ec7;
+}
+.header-text {
+  color: white;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-text > h3 {
+  font-size: 1.5vw;
+  margin-bottom: 0;
+}
+.header-text > h2 {
+  margin-top: 0;
+  font-size: 3vw;
+  font-family: Futura;
+}
+.scroll-container {
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.scroll-circle {
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.scroll-circle > img {
+  height: 25%;
+  width: auto;
+}
+.navBar-sticky {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  height: 9vh;
+  box-shadow: 0px 2px 4px #00000029;
+}
+
+.navbar-section-container-sticky {
+  color: black;
+}
+.second-chance-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #fafafa;
+}
+.second-chance-container > div {
+  width: 35%;
+}
+.second-chance-container > div > h3 {
+  text-transform: uppercase;
+}
+.second-chance-container > img {
+  height: 40vw;
+}
+.sticky > a {
+  color: black;
+}
+.button {
+  background-color: black;
+  color: white;
+  padding: 15px 30px;
+  border-style: none;
+  border-radius: 4px;
+  font-family: Futura;
+  box-shadow: 0px 2px 4px #00000029;
+  border-style: solid;
+  border-color: black;
+}
+.button2 {
+  color: black;
+  background-color: transparent;
+}
+.collection-section {
+  height: 91vh;
+  background-color: white;
+}
+.collection {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.collection-section > div:first-of-type {
+  justify-content: space-between;
+}
+
+.collection-section > div:first-of-type > div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.collection-section > div:first-of-type > div > button {
+  align-self: flex-start;
+  margin-left: 8vw;
+}
+.collection-section > div:first-of-type > div > h1 {
+  font-family: Futura;
+  text-transform: uppercase;
+  margin: auto;
+  font-size: 2.5vw;
+  margin-bottom: 1vw;
+  margin-top: 3vw;
+  padding: 0 2vw 0 8vw;
+}
+.collection-section > div:first-of-type > img {
+  width: 45%;
+}
+.collection-section > div:last-of-type > img:first-of-type {
+  width: 37%;
+  height: auto;
+}
+.collection-section > div:last-of-type > img:last-of-type {
+  height: auto;
+  width: 63%;
+}
+.collection-section > img {
+  width: 70%;
+}
+.workshop-section {
+  margin-top: 7vh;
+}
+.workshop-section > h2 {
+  text-align: center;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-family: Futura;
+  font-size: 4vh;
+}
+.workshop-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.workshop-info {
+  width: 50%;
+}
+.workshop-img-container {
+  width: 50%;
+}
+.workshop-img-container > img {
+  width: 35vw;
+  border-radius: 10px;
+}
+
+.workshop-info > h4 {
+  font-family: Futura;
+  font-size: 1.5vw;
+  padding: 0 4vw 0 12vw;
+  text-transform: uppercase;
+}
+.workshop-info > p {
+  font-family: Futura;
+  padding: 0 4vw 0 12vw;
+}
+.workshop-info > h3 {
+  font-family: Futura;
+  padding: 0 4vw 0 12vw;
+}
+.workshop-info > button {
+  margin-left: 12vw;
+}
+
+.second > img {
+  margin-left: 12vw;
+}
+.second > h4,
+.second > h3,
+.second > p {
+  padding-left: 2vw;
+  width: 35vw;
+}
+.second > button {
+  margin-left: 2vw;
+}
+.workshop-section > div:last-of-type {
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+}
+.contact-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 18vw;
+  background-color: #fafafa;
+}
+.contact-container {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-container > h3 {
+  font-size: 2vw;
+}
+
+.contact-container > p {
+  font-size: 1vw;
+  text-align: center;
+}
+
+.input-container > input {
+  border: 1px solid #808080b3;
+  padding: 15px 30px;
+  border-radius: 5px;
+  width: 15vw;
+}
+.input-container > button {
+  margin-left: 20px;
+}
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 10vw;
+}
+.footer-container > img {
+  height: 4vw;
+}
+.footer-container > p {
+  width: 33%;
+}
+.connect-info-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 33%;
+}
+.icons-container {
+  width: 10vw;
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-end;
+}
+.icons-container > img {
+  width: 2vw;
+}
+.connect-info-container > p {
+  align-self: flex-end;
+}
+.menu-icon {
+  display: none;
+}
+.menu-mobile {
+  display: none;
+}
+@media only screen and (max-height: 950px) and (max-width: 870px) {
+  .header-section {
+    height: 35vh;
+  }
+  .header-buttons-container {
+    display: none;
+  }
+  .menu-mobile {
+    position: absolute;
+    z-index: 10;
+    height: 200px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu-mobile > a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 5px;
+    font-family: Futura;
+  }
+  .menu-mobile > a:hover {
+    text-decoration: underline;
+    color: #7a8ec7;
+  }
+  .header-text > h2 {
+    font-size: 8vw;
+    text-align: center;
+  }
+  .menu-mobile > img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .hide {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+  }
+  .header-section {
+    margin-top: 0;
+  }
+  .navBar-sticky {
+    display: none;
+  }
+  .second-chance-container {
+    flex-direction: column-reverse;
+    height: auto;
+    margin-top: 8vh;
+  }
+  .second-chance-container > img {
+    height: 20vh;
+  }
+  .second-chance-container > div {
+    width: 90%;
+  }
+  .collection-section {
+    display: none;
+  }
+  .button {
+    font-size: 0.7rem;
+    padding: 10px 20px;
+  }
+  .second > img {
+    margin-left: 3vw;
+  }
+  .workshop-container {
+    height: auto;
+  }
+  .workshop-img-container > img {
+    width: 45vw;
+  }
+  .workshop-info > h3,
+  .workshop-info > h4,
+  .workshop-info > p {
+    margin: 5px;
+    padding: 0 4vw 0 4vw;
+  }
+  .workshop-info > h3 {
+    font-size: 0.7rem;
+  }
+  .workshop-info > h4 {
+    font-size: 0.5rem;
+  }
+  .workshop-info > p {
+    font-size: 0.5rem;
+  }
+  .workshop-info > button {
+    font-size: 0.5rem;
+    padding: 5px 10px;
+    margin-left: 4vw;
+  }
+  .contact-section {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-container {
+    width: 90%;
+  }
+  .contact-container > h3 {
+    font-size: 5vw;
+  }
+  .contact-container > p {
+    font-size: 3vw;
+  }
+  .footer-container {
+    flex-direction: column;
+    height: auto;
+  }
+  .footer-container > p {
+    width: 90%;
+  }
+  .input-container > input {
+    width: 30vw;
+    margin-bottom: 20px;
+  }
+  .footer-container > img {
+    height: 10vw;
+  }
+  .connect-info-container {
+    width: 90%;
+  }
+  .connect-info-container > p {
+    align-self: flex-start;
+  }
+  .icons-container {
+    align-self: start;
+    width: 30vw;
+    margin-bottom: 20px;
+  }
+  .icons-container > img {
+    width: 6vw;
+  }
+}
